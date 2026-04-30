@@ -63,11 +63,25 @@
 #     start+=1
 
 
-num1=int(input("enter:"))
-num2=int(input("enter:"))
+#num1=int(input("enter:"))
+# num2=int(input("enter:"))
 
-while num1<=num2:
-    if num1%2==0:
-        print(num1)
-    num1+=1   
+# while num1<=num2:
+#     if num1%2==0:
+#         print(num1)
+#     num1+=1   
 
+# num=int(input("enter"))
+# fact=1
+# for ele in range(1,num+1):
+#     fact*=ele
+# print(fact)    
+
+
+num=int(input("enter:"))
+first=0
+second=1
+while first<=num:
+    print(first)
+    third=first+second
+    first,second=second,third
